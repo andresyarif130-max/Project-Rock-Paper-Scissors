@@ -95,4 +95,9 @@ console.log(getComputerChoice());
         const computerSelection = getComputerChoice();
         playRound(humanSelection, computerSelection);
     }
+
+    console.log("Final Score:");
+    console.log(`Human: ${humanScore}`);
+    console.log(`Computer: ${computerScore}`);
+    
   }
