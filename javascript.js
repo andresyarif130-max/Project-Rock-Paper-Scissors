@@ -65,11 +65,11 @@ console.log(getComputerChoice());
         (humanChoice === "paper" && computerChoice === "rock") ||
         (humanChoice === "scissors" && computerChoice === "paper")
     ) {
-        humanChoice++;
+        humanScore++;
         console.log(`You win! ${humanChoice} beats ${computerChoice}`);
 
     } else {
-        computerChoice++;
+        computerScore++;
         console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
     }
     
