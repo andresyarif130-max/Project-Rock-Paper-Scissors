@@ -108,3 +108,5 @@ console.log(getComputerChoice());
         console.log("Do it again!");
     }
   }
+
+  playGame();
