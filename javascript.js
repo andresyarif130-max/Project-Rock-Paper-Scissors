@@ -50,3 +50,13 @@ console.log(getComputerChoice());
    // Else:
       // Increase cumanScore by 1.
       // Print "You lose this round".
+
+  //Step 5
+  function playRound (humanChoice, computerChoice) {
+    humanChoice = humanChoice.toLowerCase()
+
+    if (humanChoice === computerChoice) {
+        return "Do it again"
+    }
+    
+  }   
