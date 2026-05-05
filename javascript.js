@@ -38,3 +38,15 @@ console.log(getComputerChoice());
   //Step 4
   const humanScore = 0;
   const computerScore = 0;
+  
+  //Step 5 pseudocode
+   // Create function playRound
+   // Add two parameter(humanChoice and computerChoice) in function PlayRound
+   // Convert humanChoice to lowercase.
+   // If both choice are same, print "Do it again".
+   // If Human wins ((rock beats scissors, paper beats rock, scissors beats paper):
+      // Increase humanScore by 1.
+      // Print "You win this round".)
+   // Else:
+      // Increase cumanScore by 1.
+      // Print "You lose this round".
