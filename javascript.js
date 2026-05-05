@@ -34,3 +34,5 @@ console.log(getComputerChoice());
   // Create variable to keep tract on player score.
   // Create variable to keep tract on computer score.
   // Start the variable value from 0.
+
+  //Step 4
