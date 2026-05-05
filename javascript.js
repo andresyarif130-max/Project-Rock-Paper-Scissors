@@ -89,3 +89,10 @@ console.log(getComputerChoice());
       // Print "The game is a tie".
 
   // Step 6
+  function playGame () {
+    for (let i = 0; i < 5; i++) {
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+        playRound(humanSelection, computerSelection);
+    }
+  }
