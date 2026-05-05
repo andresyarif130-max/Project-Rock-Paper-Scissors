@@ -72,4 +72,20 @@ console.log(getComputerChoice());
         console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
     }
     
-  }   
+  }  
+
+  //Step 6 pseudocode
+   //Create funcion named playGame
+   // Repeat 5 times:
+      // Get human choice.
+      // Get computer choice.
+      // Call playRound function.
+  // Print final scores.
+  // If humanScore is greater:
+      // Print "You win the game".
+  // Else if computerScore is greater:
+      // Print "Computer wins the game".
+  // Else:
+      // Print "The game is a tie".
+
+    
