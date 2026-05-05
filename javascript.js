@@ -26,6 +26,7 @@ console.log(getComputerChoice());
  //Step 3
  function getHumanChoice (){
     const humanChoice = prompt("please choose one:\n rock, paper or scissors");
+    return humanChoice;
  }
 
  console.log(getHumanChoice());
@@ -53,7 +54,7 @@ console.log(getComputerChoice());
 
   //Step 5
   function playRound (humanChoice, computerChoice) {
-    humanChoice = humanChoice.toLowerCase()
+    humanChoice = humanChoice.toLowerCase();
 
     if (humanChoice === computerChoice) {
         return "Do it again";
