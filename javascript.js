@@ -75,7 +75,7 @@ console.log(getComputerChoice());
   }  
 
   // Step 6 pseudocode
-   // Create funcion named playGame
+   // Create function named playGame
    // Repeat 5 times:
       // Get human choice.
       // Get computer choice.
@@ -88,4 +88,4 @@ console.log(getComputerChoice());
   // Else:
       // Print "The game is a tie".
 
-    
+  // Step 6
