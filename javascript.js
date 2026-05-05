@@ -37,8 +37,8 @@ console.log(getComputerChoice());
   // Start the variable value from 0.
 
   //Step 4
-  const humanScore = 0;
-  const computerScore = 0;
+  let humanScore = 0;
+  let computerScore = 0;
   
   //Step 5 pseudocode
    // Create function playRound
