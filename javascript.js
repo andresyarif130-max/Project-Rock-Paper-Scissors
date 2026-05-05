@@ -56,13 +56,17 @@ console.log(getComputerChoice());
     humanChoice = humanChoice.toLowerCase()
 
     if (humanChoice === computerChoice) {
-        return "Do it again"
+        return "Do it again";
     }
     
     if (
         (humanChoice === "rock" && computerChoice === "scissors") ||
         (humanChoice === "paper" && computerChoice === "rock") ||
         (humanChoice === "scissors" && computerChoice === "paper") ||
-    )
+    ) {
+        humanChoice++;
+        console.log(`You win! ${humanChoice} beats ${computerChoice}`);
+
+    }
     )
   }   
