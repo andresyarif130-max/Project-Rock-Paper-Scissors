@@ -5,5 +5,5 @@
 
 // Step 2
 function getComputerChoice () {
-    
+    const computerChoice = Math.floor(Math.random() * 3);
 }
