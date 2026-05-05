@@ -4,3 +4,6 @@
  // Create if... else statement for rock, paper, scissors
 
 // Step 2
+function getComputerChoice () {
+    
+}
