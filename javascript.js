@@ -17,3 +17,11 @@ function getComputerChoice () {
 }
 
 console.log(getComputerChoice());
+
+// Step 3 pseudocode
+ // Create a function getHumanChoice.
+ // Get input from user to pick rock, paper & scissors.
+ // Test the code.
+
+ //Step 3
+ 
