@@ -36,3 +36,5 @@ console.log(getComputerChoice());
   // Start the variable value from 0.
 
   //Step 4
+  const humanScore = 0;
+  const computerScore = 0;
