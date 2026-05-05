@@ -74,8 +74,8 @@ console.log(getComputerChoice());
     
   }  
 
-  //Step 6 pseudocode
-   //Create funcion named playGame
+  // Step 6 pseudocode
+   // Create funcion named playGame
    // Repeat 5 times:
       // Get human choice.
       // Get computer choice.
