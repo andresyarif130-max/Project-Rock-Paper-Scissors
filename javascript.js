@@ -24,4 +24,8 @@ console.log(getComputerChoice());
  // Test the code.
 
  //Step 3
- 
+ function getHumanChoice (){
+    const humanChoice = prompt("please choose one:\n rock, paper or scissors");
+ }
+
+ console.log(getHumanChoice())
