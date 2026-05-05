@@ -99,5 +99,12 @@ console.log(getComputerChoice());
     console.log("Final Score:");
     console.log(`Human: ${humanScore}`);
     console.log(`Computer: ${computerScore}`);
-    
+
+    if (humanScore > computerScore) {
+        console.log("You win the game!");
+    } else if (humanScore < computerScore) {
+        console.log("Computer wins the game");
+    } else {
+        console.log("Do it again!");
+    }
   }
