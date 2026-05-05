@@ -57,7 +57,8 @@ console.log(getComputerChoice());
     humanChoice = humanChoice.toLowerCase();
 
     if (humanChoice === computerChoice) {
-        return "Do it again";
+        console.log("Do it again");
+        return;
     }
     
     if (
