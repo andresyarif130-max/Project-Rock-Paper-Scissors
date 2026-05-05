@@ -30,4 +30,7 @@ console.log(getComputerChoice());
 
  console.log(getHumanChoice());
 
- 
+ // Step 4 pseudocode
+  // Create variable to keep tract on player score.
+  // Create variable to keep tract on computer score.
+  // Start the variable value from 0.
