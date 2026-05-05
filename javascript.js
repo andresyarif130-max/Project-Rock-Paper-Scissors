@@ -59,4 +59,10 @@ console.log(getComputerChoice());
         return "Do it again"
     }
     
+    if (
+        (humanChoice === "rock" && computerChoice === "scissors") ||
+        (humanChoice === "paper" && computerChoice === "rock") ||
+        (humanChoice === "scissors" && computerChoice === "paper") ||
+    )
+    )
   }   
