@@ -69,7 +69,7 @@ console.log(getComputerChoice());
 
     } else {
         computerChoice++;
-        console.log(`You lose! ${computerChoice} beats ${humanChoice}`););
+        console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
     }
-    )
+    
   }   
